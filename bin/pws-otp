@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/pws/otp"
+
+require "rationalist"
+
+argv = Rationalist.parse
+
+case argv[:_][0]
+when "time"
+  action = :get_totp
+else
+  raise ArgumentError, "no valid OTP action given"
+end
+
+arguments = argv[:_][1..-1]
+# TODO Support same options as PWS
+status = PWS.new({}).public_send(action, *arguments)
+exit(status ? 0 : 2)
