@@ -1,4 +1,4 @@
-# pws-otp [![[version]](https://badge.fury.io/rb/pws-otp.svg)](http://badge.fury.io/rb/pws-otp)  [![[travis]](https://travis-ci.org/janlelis/pws-otp.svg)](https://travis-ci.org/janlelis/pws-otp)
+# pws-otp [![[version]](https://badge.fury.io/rb/pws-otp.svg)](http://badge.fury.io/rb/pws-otp)  [![[ci]](https://github.com/janlelis/pws-otp/workflows/Test/badge.svg)](https://github.com/janlelis/pws-otp/actions?query=workflow%3ATest)
 
 Experimental OTP support for [pws](https://github.com/janlelis/pws) via [rotp](https://github.com/mdp/rotp).
 
