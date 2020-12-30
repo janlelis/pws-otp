@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "pws", "~> 1.0"
-  gem.add_dependency "rotp", "~> 3.3"
+  gem.add_dependency "rotp", "~> 6.2"
   gem.add_dependency "rationalist", "~> 2.0"
 
   gem.required_ruby_version = ">= 2.1", "< 4.0"
