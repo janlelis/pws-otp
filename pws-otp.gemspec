@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "OTP support for PWS"
   gem.description   = "Experimental OTP support for PWS"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = ["mail@janlelis.de"]
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/pws-otp"
   gem.license       = "MIT"
 
@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rotp", "~> 3.3"
   gem.add_dependency "rationalist", "~> 2.0"
 
-  gem.required_ruby_version = "~> 2.1"
+  gem.required_ruby_version = ">= 2.1", "< 4.0"
 end

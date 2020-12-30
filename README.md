@@ -19,4 +19,4 @@ $ pws-otp time [entry]
 
 ## MIT License
 
-Copyright (C) 2017 Jan Lelis <http://janlelis.com>. Released under the MIT license.
+Copyright (C) 2017 Jan Lelis <https://janlelis.com>. Released under the MIT license.
